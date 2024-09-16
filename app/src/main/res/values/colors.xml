@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    custom colors for the majira application-->
+    <color name="blue">#226ba3</color>
+    <color name="green">#627e75</color>
+    <color name="brown">#d2a985</color>
+    <color name="red">#913639</color>
+    <color name="yellow">#e9c429</color>
+
+    <!-- Primary colors -->
+    <color name="colorPrimary">#1976D2</color> <!-- A vibrant blue -->
+    <color name="colorPrimaryDark">#0D47A1</color> <!-- A darker blue for status bar -->
+    <color name="colorAccent">#FFC107</color> <!-- A bright yellow -->
+
+    <!-- Additional colors -->
+    <color name="colorSecondary">#8D6E63</color> <!-- A medium brown -->
+    <color name="colorBackground">#F5F5F5</color> <!-- Light grey background -->
+    <color name="colorSurface">#FFFFFF</color> <!-- White surface -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="colorOnSecondary">#000000</color> <!-- Black text on secondary -->
+    <color name="colorOnBackground">#000000</color> <!-- Black text on background -->
+    <color name="colorOnSurface">#000000</color> <!-- Black text on surface -->
+
+    <!-- Weather-specific colors -->
+    <color name="colorSunny">#FFD54F</color> <!-- A lighter yellow for sunny weather -->
+    <color name="colorCloudy">#90A4AE</color> <!-- A light blue-grey for cloudy weather -->
+    <color name="colorRainy">#4FC3F7</color> <!-- A light blue for rainy weather -->
+<!--These are more colors-->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="primaryLightColor">#BB86FC</color>
+    <color name="secondaryColor">#03DAC5</color>
+    <color name="backgroundColor">#FFFFFF</color>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="accent">#FFC107</color>
+
+    <color name="dark_background">#121212</color>
+    <color name="search_background">#1F1F1F</color>
+
+    <color name="light_gray">#BDBDBD</color>
+    <color name="gray">#757575</color>
+    <color name="dark_gray">#424242</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color> <!-- 70% white -->
+
+    <color name="temperature_hot">#FF5722</color>
+    <color name="temperature_warm">#FF9800</color>
+    <color name="temperature_cool">#03A9F4</color>
+    <color name="temperature_cold">#2196F3</color>
+
+    <!-- Background color for the forecast card -->
+    <color name="card_background">#1E1E1E</color>
+
+    <color name="city_item_background">#2A2A2A</color>
+    <color name="delete_button_background">#FF5722</color>
+
+    <color name="selected_background">#E0E0E0</color>
+    <color name="pressed_background">#F0F0F0</color>
+
+    <!-- If you want specific light-mode variations, add those here. For example: -->
+    <color name="settings_background_light">#F5F5F5</color>
+    <color name="settings_card_background_light">#FFFFFF</color>
+    <color name="settings_text_primary_light">#000000</color>
+    <color name="settings_text_secondary_light">#757575</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlue">#0000FF</color>
+
+    <color name="settings_background">#FFFFFF</color>
+    <color name="settings_text_primary">#000000</color>
+    <color name="settings_text_secondary">#666666</color>
+    <color name="settings_card_background">#F0F0F0</color>
+    <color name="settings_radio_button">#000000</color>
+    <color name="settings_switch">#000000</color>
+    <color name="item_bg">#EFF1F0</color>
+
+</resources>

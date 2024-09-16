@@ -1,0 +1,28 @@
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#0D47A1</color> <!-- A darker blue for night mode -->
+    <color name="colorPrimaryDark">#01579B</color> <!-- An even darker blue for status bar -->
+    <color name="colorAccent">#FFD54F</color> <!-- A slightly muted yellow -->
+
+    <!-- Additional colors -->
+    <color name="colorSecondary">#6D4C41</color> <!-- A darker brown -->
+    <color name="colorBackground">#121212</color> <!-- Dark background -->
+    <color name="colorSurface">#1E1E1E</color> <!-- Slightly lighter dark surface -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="colorOnSecondary">#FFFFFF</color> <!-- White text on secondary -->
+    <color name="colorOnBackground">#FFFFFF</color> <!-- White text on background -->
+    <color name="colorOnSurface">#FFFFFF</color> <!-- White text on surface -->
+
+        <!-- Weather-specific colors -->
+    <color name="colorSunny">#FFB300</color> <!-- A darker yellow for sunny weather -->
+    <color name="colorCloudy">#546E7A</color> <!-- A darker blue-grey for cloudy weather -->
+    <color name="colorRainy">#0288D1</color> <!-- A darker blue for rainy weather -->
+
+    <color name="settings_background">#121212</color>
+    <color name="settings_text_primary">#FFFFFF</color>
+    <color name="settings_text_secondary">#AAAAAA</color>
+    <color name="settings_card_background">#1E1E1E</color>
+    <color name="settings_radio_button">#FFFFFF</color>
+    <color name="settings_switch">#FFFFFF</color>
+    <color name="item_bg">#292D3E</color>
+</resources>

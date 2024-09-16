@@ -1,0 +1,65 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/item_background"
+    android:padding="16dp">
+
+    <!-- com.example.majiraapp.ui.data.City Name -->
+    <TextView
+        android:id="@+id/tvCityName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="City Name"
+        android:textColor="@color/settings_text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvTemperature"
+        app:layout_constraintHorizontal_bias="0.0"/>
+
+    <!-- Temperature -->
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27°"
+        android:textColor="@color/settings_text_primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <!-- Time -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:23"
+        android:textColor="@color/settings_text_primary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCityName"
+        app:layout_constraintStart_toStartOf="@+id/tvCityName"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Delete Button -->
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/delete_background"
+        android:src="@drawable/ic_cancel"
+        android:contentDescription="delete"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
